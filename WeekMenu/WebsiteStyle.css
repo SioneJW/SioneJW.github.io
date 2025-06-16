@@ -1,0 +1,21 @@
+body {
+    background-color: #f5f4f0;
+}
+h1 {
+    color:#45b8ac;
+    font-size: 50px;
+    font-family:cinzel
+}
+.Menu_div {
+    margin: 50px
+}
+
+.Recipe_div {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px
+}
+
+img {
+    float: right;
+  }
