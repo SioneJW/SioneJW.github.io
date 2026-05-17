@@ -37,6 +37,7 @@ body {
       display: table;
     }
 
+<<<<<<< Updated upstream
 /* link */
 a:link {
   color: white;
@@ -62,6 +63,8 @@ a:active {
   text-decoration: none;
 }
 
+=======
+>>>>>>> Stashed changes
 /* bootstrap */
 
 .nav-link {
@@ -79,3 +82,11 @@ a:active {
 .nav-link:hover {
     color:white;
 }
+<<<<<<< Updated upstream
+=======
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+>>>>>>> Stashed changes
