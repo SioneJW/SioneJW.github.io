@@ -37,7 +37,6 @@ body {
       display: table;
     }
 
-<<<<<<< Updated upstream
 /* link */
 a:link {
   color: white;
@@ -63,8 +62,6 @@ a:active {
   text-decoration: none;
 }
 
-=======
->>>>>>> Stashed changes
 /* bootstrap */
 
 .nav-link {
