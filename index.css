@@ -71,6 +71,32 @@ a:active {
   text-decoration: none;
 }
 
+/* link black */
+
+#black a:link {
+  color: rgba(33, 37, 41);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#black a:visited {
+  color: rgba(33, 37, 41);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#black a:hover {
+  color: rgba(33, 37, 41);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#black a:active {
+  color: rgba(33, 37, 41);
+  background-color: transparent;
+  text-decoration: none;
+}
+
 /* bootstrap */
 
 .nav-link {
@@ -88,11 +114,8 @@ a:active {
 .nav-link:hover {
     color:white;
 }
-<<<<<<< Updated upstream
-=======
+
 
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
 }
-
->>>>>>> Stashed changes
