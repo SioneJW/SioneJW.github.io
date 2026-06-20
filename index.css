@@ -117,7 +117,48 @@ a:active {
     color:white;
 }
 
+/*pop-up im with text to the right*/
 
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
 }
+
+.gallery-img {
+    width: 100%;
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+/* Make the popup large */
+#gardenModal .modal-dialog {
+    max-width: 900px;
+}
+
+/* Remove Bootstrap's white background */
+#gardenModal .modal-content {
+    background: transparent;
+    border: none;
+}
+
+/* Put image and text side by side */
+#gardenModal .modal-body {
+    display: flex;
+    padding: 0;
+}
+
+/* Image section */
+#gardenModal .modal-body img {
+    width: 75%;
+    display: block;
+}
+
+/* Black text box on the right */
+#gardenModal .caption-box {
+    width: 25%;
+    background: black;
+    color: white;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+/* pop-up end
