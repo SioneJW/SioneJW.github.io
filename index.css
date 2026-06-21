@@ -130,35 +130,40 @@ a:active {
 }
 
 /* Make the popup large */
-#gardenModal .modal-dialog {
+.modal-dialog {
     max-width: 900px;
 }
 
 /* Remove Bootstrap's white background */
-#gardenModal .modal-content {
+.modal-content {
     background: transparent;
     border: none;
 }
 
 /* Put image and text side by side */
-#gardenModal .modal-body {
+.modal-body {
     display: flex;
     padding: 0;
 }
 
 /* Image section */
-#gardenModal .modal-body img {
+.modal-body img {
     width: 75%;
     display: block;
 }
 
 /* Black text box on the right */
-#gardenModal .caption-box {
+.caption-box {
     width: 25%;
     background: black;
     color: white;
     padding: 20px;
     overflow-y: auto;
 }
+
+.image-box.portrait {
+    width: 40%;
+}
+
 
 /* pop-up end
