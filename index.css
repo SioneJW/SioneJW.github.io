@@ -136,7 +136,7 @@ a:active {
 
 /* Make the popup large */
 .modal-dialog {
-    max-width: 900px;
+    max-width: 900px; 
 }
 
 /* Remove Bootstrap's white background */
@@ -153,26 +153,45 @@ a:active {
 
 /* Image section */
 .modal-body img {
-    width: 75%;
+    width: 75%; 
     display: block;
 }
 
 /* Black text box on the right */
 .caption-box {
-    width: 25%;
+    width: 25%; 
     background: black;
     color: white;
     padding: 20px;
     overflow-y: auto;
 }
 
-.image-box.portrait {
-    width: 40%;
-}
-
 .image-box.drawing {
     width: 100%;
 }
 
+/* vertical im*/
 
-/* pop-up end
+.image-box.portrait {
+    width: 100%; /*changed from 40%*/
+}
+
+.modal-body_vert img {
+    width: 60%;
+    display: block;
+}
+
+.caption-box_vert {
+    width: 40%;
+    background: black;
+    color: white;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.modal-dialog_vert {
+    max-width: 600px; /*changed from: max-width: 900px;*/
+}
+
+
+/* pop-up end */
