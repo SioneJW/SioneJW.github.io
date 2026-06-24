@@ -56,18 +56,84 @@
     </div>
   </div>
   <div class="row">
-    <div class="mini_column_vert">
-      <img src="../Images/bird.jpeg" alt="Bird" style="width:100%; border: 2px solid rgb(255,255,255)">
-    </div>
-    <div class="mini_column_vert">
-      <img src="../Images/birds.jpeg" alt="Birds" style="width:100%; border: 2px solid rgb(255,255,255)">
-    </div>
-    <div class="mini_column_vert">
-      <img src="../Images/house.jpeg" alt="House" style="width:100%; border: 2px solid rgb(255,255,255)">
-    </div>
-    <div class="mini_column_vert">   
+    <div class="mini_column_vert">  
+    <img src="../Images/bird.jpeg"
+      alt="House"
+      class="gallery-img_small"
+      data-bs-toggle="modal"
+      data-bs-target="#birdModal">
 
-      <img src="../Images/lost_prince.jpg"
+      <div class="modal fade" id="birdModal" tabindex="-1">
+          <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog_vert">
+              <div class="modal-content">
+                <div class="modal-body modal-body_vert">
+                  <div class="image-box portrait">
+                    <img src="../Images/bird.jpeg" alt="Birds" style="width: 100%;">
+                  </div>
+                  <div class="caption-box caption-box_vert">
+                      <h4>Winter Bird</h4>
+                      <p><br>Made with acrylic paint on cold pressed, fine grain paper.<br><br>
+                    10,5 × 14,8 cm<br><br> December 2024</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="mini_column_vert">  
+    <img src="../Images/birds.jpeg"
+      alt="House"
+      class="gallery-img_small"
+      data-bs-toggle="modal"
+      data-bs-target="#birdsModal">
+
+      <div class="modal fade" id="birdsModal" tabindex="-1">
+          <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog_vert">
+              <div class="modal-content">
+                <div class="modal-body modal-body_vert">
+                  <div class="image-box portrait">
+                    <img src="../Images/birds.jpeg" alt="Birds" style="width: 100%;">
+                  </div>
+                  <div class="caption-box caption-box_vert">
+                      <h4>Winter Birds</h4>
+                      <p><br>Made with acrylic paint on cold pressed, fine grain paper.<br><br>
+                    10,5 × 14,8 cm<br><br> November 2024</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="mini_column_vert">  
+    <img src="../Images/house.jpeg"
+      alt="House"
+      class="gallery-img_small"
+      data-bs-toggle="modal"
+      data-bs-target="#houseModal">
+
+      <div class="modal fade" id="houseModal" tabindex="-1">
+          <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog_vert">
+              <div class="modal-content">
+                <div class="modal-body modal-body_vert">
+                  <div class="image-box portrait">
+                    <img src="../Images/house.jpeg" alt="House" style="width: 100%;">
+                  </div>
+                  <div class="caption-box caption-box_vert">
+                      <h4>Light House</h4>
+                      <p><br>Made with acrylic paint on cold pressed, fine grain paper.<br><br>
+                    10,5 × 14,8 cm<br><br> November 2024</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+
+    <div class="mini_column_vert">   
+    <img src="../Images/lost_prince.jpg"
       alt="Lost Prince"
       class="gallery-img_small"
       data-bs-toggle="modal"
@@ -82,13 +148,12 @@
                   </div>
                   <div class="caption-box caption-box_vert">
                       <h4>Lost Prince</h4>
-                      <p><br>Made with Caran D'Ache Neocolor II Aquarelle and Caran D'Ache Pablo pencils on mixed media paper size A5, June 2026.</p>
+                      <p><br>Made with Caran D'Ache Neocolor II Aquarelle and Caran D'Ache Pablo pencils on mixed media paper size A5.<br><br>June 2026</p>
                   </div>
                 </div>
               </div>
           </div>
       </div>
-
     </div>
   </div>
 </center>
@@ -112,7 +177,7 @@
                 </div>
                 <div class="caption-box">
                     <h4>Garden</h4>
-                    <p><br>Made with Caran d'Ache Pablo pencils and acrylic paint on cold-pressed, fine-grain paper.<br><br>
+                    <p><br>Based on Studio Ghibli's Only Yesterday. <br><br>Made with Caran d'Ache Pablo pencils and acrylic paint on cold-pressed, fine-grain paper.<br><br>
                     17 × 24 cm<br><br>
                     <i>Escaperoom Series</i> No. 3, May 2026.</p>
                 </div>
@@ -138,7 +203,7 @@
                 </div>
                 <div class="caption-box">
                     <h4>Garden</h4>
-                    <p><br>Made with Caran d'Ache Pablo pencils and acrylic paint on cold-pressed, fine-grain paper.<br><br>
+                    <p><br>Based on Studio Ghibli's Kiki's Delivery Service. <br><br>Made with Caran d'Ache Pablo pencils and acrylic paint on cold-pressed, fine-grain paper.<br><br>
                     17 × 24 cm<br><br>
                     <i>Escaperoom Series</i> No. 4, May 2026.</p>
                 </div>
@@ -194,7 +259,7 @@
                 <div class="caption-box">
                     <h4>Steps</h4>
                     <p><br>Based on Studio Ghibli's Spirited Away. <br><br>Made with Caran d'Ache Pablo pencils on mixed media paper size A4.<br><br>
-                    August, 2025</p>
+                    August 2025</p>
                 </div>
               </div>
             </div>
@@ -203,8 +268,30 @@
   </div>
 
   <div class="column">
-    <img src="../Images/howl_dim.png" alt="howl" style="width:100%; border: 3px solid rgb(255,255,255)">
+  <img src="../Images/howl_dim.png"
+    alt="howl"
+    class="gallery-img"
+    data-bs-toggle="modal"
+    data-bs-target="#howlModal">
+
+    <div class="modal fade" id="howlModal" tabindex="-1">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="image-box drawing">
+                  <img src="../Images/howl_dim.png" alt="howl" style="width: 100%;">
+                </div>
+                <div class="caption-box">
+                    <h4>Steps</h4>
+                    <p><br>Based on Studio Ghibli's Howl's Moving Castle. <br><br>Made with Caran d'Ache Pablo pencils on mixed media paper size A4.<br><br>
+                    June 2025</p>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
   </div>
+
 </div>
 <p style="margin-top:1cm;"></p>
 <div class="row">
@@ -225,7 +312,7 @@
                 </div>
                 <div class="caption-box">
                     <h4>Journey</h4>
-                    <p><br>Made with Caran d'Ache Pablo pencils and acrylic paint on cold-pressed, fine-grain paper.<br><br>
+                    <p><br>Based on Frieren: Beyond Journey's End. <br><br>Made with Caran d'Ache Pablo pencils and acrylic paint on cold-pressed, fine-grain paper.<br><br>
                     21 × 29,7 cm<br><br>
                     <i>Escaperoom Series</i> No. 1, April 2026.</p>
                 </div>
@@ -305,8 +392,8 @@
             </div>
         </div>
     </div>
-
   </div>
+
 </div>
 
 
