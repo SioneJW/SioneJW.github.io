@@ -133,10 +133,14 @@ a:active {
     border: 2px solid white;
     cursor: pointer;
 }
-
+.gallery-img_vert {
+    width: 80%;
+    border: 3px solid white;
+    cursor: pointer;
+}
 /* Make the popup large */
 .modal-dialog {
-    max-width: 900px; 
+    max-width: 1100px; 
 }
 
 /* Remove Bootstrap's white background */
@@ -191,6 +195,14 @@ a:active {
 
 .modal-dialog_vert {
     max-width: 600px; /*changed from: max-width: 900px;*/
+}
+
+.modal-dialog_vertMid {
+    max-width: 700px; /*changed from: max-width: 900px;*/
+}
+
+.modal-dialog_vertBig {
+    max-width: 850px; /*changed from: max-width: 900px;*/
 }
 
 /*horiz. postcards*/
