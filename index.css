@@ -215,4 +215,29 @@ a:active {
 .modal-dialog_card {
     max-width: 750px; /*changed from: max-width: 900px;*/
 }
+
+/* Phone layout */
+@media (max-width: 768px) {
+
+    .modal-body,
+    .modal-body_vert {
+        flex-direction: column;
+    }
+
+    .modal-body img,
+    .modal-body_vert img {
+        width: 100%;
+    }
+
+    .caption-box,
+    .caption-box_vert {
+        width: 100%;
+    }
+
+    .modal-dialog,
+    .modal-dialog_vert {
+        max-width: 95%;
+        margin: auto;
+    }
+}
 /* pop-up end */
