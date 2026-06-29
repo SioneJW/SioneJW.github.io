@@ -223,17 +223,26 @@ a:active {
         width:100%;
     }
 
+    .caption-box_vert {
+        width: 100%;
+        max-height: 180px; 
+        padding: 15px;
+    }
+
     .image-box img{
         max-height:60vh;
     }
 
     .modal-small,
     .modal-medium,
-    .modal-large,
+    .modal-large{
+        --bs-modal-width:80%;
+    }
+
     .modal-small_vert,
     .modal-medium_vert,
     .modal-large_vert{
-        --bs-modal-width:95%;
+        --bs-modal-width:80%;
     }
 
 }
