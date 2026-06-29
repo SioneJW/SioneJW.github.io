@@ -125,119 +125,116 @@ a:active {
 
 /*pop-up im with text to the right*/
 
-.featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-}
-
 .gallery-img {
     width: 100%;
     border: 3px solid white;
     cursor: pointer;
 }
+
 .gallery-img_small {
     width: 100%;
     border: 2px solid white;
     cursor: pointer;
 }
+
 .gallery-img_vert {
     width: 80%;
     border: 3px solid white;
     cursor: pointer;
 }
-/* Make the popup large */
-.modal-dialog {
-    max-width: 200px; 
-}
 
-/* Remove Bootstrap's white background */
 .modal-content {
     background: transparent;
     border: none;
 }
 
-/* Put image and text side by side */
 .modal-body {
     display: flex;
     padding: 0;
 }
 
 /* Image section */
-.modal-body img {
-    width: 75%; 
+.image-box {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+    max-height: 85vh;
+    object-fit: contain;
     display: block;
 }
 
-/* Black text box on the right */
+/* Caption */
 .caption-box {
-    width: 25%; 
+    flex: 0.8;
     background: black;
     color: white;
     padding: 20px;
     overflow-y: auto;
-}
-
-.image-box.drawing {
-    width: 100%;
-}
-
-/* vertical im*/
-
-.image-box.portrait {
-    width: 100%; /*changed from 40%*/
-}
-
-.modal-body_vert img {
-    width: 60%;
-    display: block;
 }
 
 .caption-box_vert {
-    width: 40%;
+    flex: 1;
     background: black;
     color: white;
     padding: 20px;
     overflow-y: auto;
 }
 
-.modal-dialog_vert {
-    max-width: 600px; /*changed from: max-width: 900px;*/
+/* Popup sizes */
+.modal-small {
+    --bs-modal-width: 750px;
 }
 
-.modal-dialog_vertMid {
-    max-width: 700px; /*changed from: max-width: 900px;*/
+.modal-small_vert {
+    --bs-modal-width: 500px;
 }
 
-.modal-dialog_vertBig {
-    max-width: 850px; /*changed from: max-width: 900px;*/
+.modal-medium {
+    --bs-modal-width: 1000px;
 }
 
-/*horiz. postcards*/
-.modal-dialog_card {
-    max-width: 750px; /*changed from: max-width: 900px;*/
+.modal-medium_vert {
+    --bs-modal-width: 700px;
 }
 
-/* Phone layout */
-@media (max-width: 768px) {
+.modal-large {
+    --bs-modal-width: 1150px;
+}
 
-    .modal-body,
-    .modal-body_vert {
-        flex-direction: column;
+.modal-large_vert {
+    --bs-modal-width: 800px;
+}
+
+/* Mobile */
+@media (max-width:768px){
+
+    .modal-body{
+        flex-direction:column;
     }
 
-    .modal-body img,
-    .modal-body_vert img {
-        width: 100%;
+    .caption-box{
+        width:100%;
     }
 
-    .caption-box,
-    .caption-box_vert {
-        width: 100%;
+    .image-box img{
+        max-height:60vh;
     }
 
-    .modal-dialog,
-    .modal-dialog_vert {
-        max-width: 95%;
-        margin: auto;
+    .modal-small,
+    .modal-medium,
+    .modal-large,
+    .modal-small_vert,
+    .modal-medium_vert,
+    .modal-large_vert{
+        --bs-modal-width:95%;
     }
+
 }
 /* pop-up end */
