@@ -197,20 +197,37 @@ a:active {
 }
 
 .modal-medium {
-    --bs-modal-width: 1000px;
+    --bs-modal-width: 50vw;
 }
+
 
 .modal-medium_vert {
     --bs-modal-width: 700px;
 }
 
+
 .modal-large {
-    --bs-modal-width: 1150px;
-}
+        --bs-modal-width: 70vw;
+    }
 
 .modal-large_vert {
-    --bs-modal-width: 800px;
+    --bs-modal-width: 45vw;
 }
+
+@media (max-width: 1600px) {
+    .modal-medium {
+    --bs-modal-width: 70vw;
+    }
+
+    .modal-large_vert {
+    --bs-modal-width: 50vw;
+    }
+
+    .modal-medium_vert {
+    --bs-modal-width: 42vw;
+    }
+}
+
 
 /* Mobile */
 @media (max-width:768px){
