@@ -239,6 +239,11 @@ a:active {
 /* Mobile */
 @media (max-width:768px){
 
+    .home-page {
+        background-size: 270% auto;
+        background-position: 70% 10%;
+    }
+
     .modal-body{
         flex-direction:column;
     }
