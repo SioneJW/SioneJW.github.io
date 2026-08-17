@@ -4,6 +4,13 @@ body {
       background-color:rgba(101, 101, 125);
 }
 
+.home-page {
+    background-image: url("Images/background.jpg");
+    background-size: 100% auto;
+    background-position: right 30%; /*crop from left (and nothing from right), 10% from top and the rest from the bottom*/
+    background-repeat: no-repeat;
+}
+
 a.button {
     padding: 1px 6px;
     border: 1px outset; /*1px outset buttonborder*/
