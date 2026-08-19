@@ -187,7 +187,7 @@ a:active {
 }
 
 .caption-box_vert {
-    flex: 1;
+    flex: 1.5;
     background: black;
     color: white;
     padding: 20px;
