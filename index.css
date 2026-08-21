@@ -4,11 +4,24 @@ body {
       background-color:rgba(101, 101, 125);
 }
 
-.home-page {
+/*.home-page {
     background-image: url("Images/background.jpg");
     background-size: 100% auto;
-    background-position: right 30%; /*crop from left (and nothing from right), 10% from top and the rest from the bottom*/
+    background-position: right 30%; /*crop from left (and nothing from right), 10% from top and the rest from the bottom
     background-repeat: no-repeat;
+}*/
+
+html, body {
+    min-height: 100%;
+}
+
+.home-page {
+    min-height: 100vh;
+    background-image: url("Images/background.jpg");
+    background-size: cover;
+    background-position: right 20%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 a.button {
@@ -239,9 +252,18 @@ a:active {
 /* Mobile */
 @media (max-width:768px){
 
-    .home-page {
-        background-size: 270% auto;
+    /*.home-page {
+        background-size: 300% auto;
         background-position: 70% 10%;
+    }*/
+
+    .home-page {
+    min-height: 100vh;
+    background-image: url("Images/background.jpg");
+    background-size: cover;
+    background-position: 70% 20%;;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     }
 
     .modal-body{
