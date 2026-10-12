@@ -51,7 +51,7 @@ a.button {
 
     .mini_column_vert {
       float: left;
-      width: 16%;
+      width: 15%; /*16.65 to fill*/
       padding:10px;
     }
 
